@@ -57,27 +57,16 @@
 //}
 //
 //
-//public enum ThemesEnum {
-//    case primary
-//    case secondry
-//    case tertiary
-//}
-//
-//public enum ButtonSizeEnum {
-//    case large
-//    case medium
-//    case small
-//}
 //
 //// Theme Creator
 //class ThemeFactory {
 //    class func createTheme(theme: ThemesEnum) -> ButtonTheme {
 //        switch theme {
-//        case .primary:
+//        case .primaryTheme:
 //            return PrimaryTheme()
-//        case .secondry:
+//        case .secondryTheme:
 //            return SecondryTheme()
-//        case .tertiary:
+//        case .tertiaryTheme:
 //            return TertiaryTheme()
 //        }
 //    }
@@ -87,11 +76,11 @@
 //class SizeFactory {
 //    class func createButtonSize(size: ButtonSizeEnum) -> ButtonSize {
 //        switch size {
-//        case .large:
+//        case .largeSize:
 //            return LargeButton()
-//        case .medium:
+//        case .mediumSize:
 //            return MediumButton()
-//        case .small:
+//        case .smallSize:
 //            return SmallButton()
 //        }
 //    }
@@ -141,4 +130,4 @@
 //
 //
 //// Client
-//let button = XHalanButton(theme: .primary, size: .medium)
+//let button = XHalanButton(theme: .primaryTheme, size: .mediumSize)
